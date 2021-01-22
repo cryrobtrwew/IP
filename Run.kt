@@ -22,7 +22,7 @@ class Run : Runnable {
                 val bufferedReader = BufferedReader(InputStreamReader(urlName.openStream()))
                 bufferedReader.readLine().trim { it <= ' ' }
             } catch (e: Exception) {
-                "Cannot Execute Correctly"
+                "Yeah it's not getting the IP"
             }
             return IP
         }
