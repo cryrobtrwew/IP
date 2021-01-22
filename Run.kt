@@ -6,7 +6,8 @@ import javax.swing.JOptionPane
 class Run : Runnable {
         
     // Kotlin Version
-    
+    // Disclaimer I suck at Kotlin so if my Kotlin version looks like dogshit or has problems then I am very sorry I suck at Kotilin
+        
     override fun run() {
         // just an example of how to display
         JOptionPane.showMessageDialog(null, ipLog())
