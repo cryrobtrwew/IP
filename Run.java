@@ -19,7 +19,7 @@ public class Run implements Runnable {
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlName.openStream()));
             IP = bufferedReader.readLine().trim();
         }catch (Exception e) {
-            IP = "Cannot Execute Correctly";
+            IP = "Damn I really don't understand how you could fuck this up this bad";
         }
         return IP;
     }
