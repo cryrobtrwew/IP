@@ -18,8 +18,7 @@ public class Run implements Runnable {
             URL urlName = new URL("http://bot.whatismyipaddress.com");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(urlName.openStream()));
             IP = bufferedReader.readLine().trim();
-        }
-        catch (Exception e) {
+        }catch (Exception e) {
             IP = "Cannot Execute Correctly";
         }
         return IP;
