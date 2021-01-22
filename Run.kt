@@ -3,6 +3,10 @@ import java.io.InputStreamReader
 import java.net.URL
 import javax.swing.JOptionPane
 
+/**
+ * @author Cryrobyte
+ */
+
 class Run : Runnable {
         
     // Kotlin Version
